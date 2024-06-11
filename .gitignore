@@ -38,3 +38,6 @@
 **.vcxproj.filters
 **.vcxproj.user
 **.csproj
+
+# Ignore .vs/Sellennia/v17
+.vs/Sellennia/v17/
