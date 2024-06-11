@@ -2,6 +2,7 @@
 
 namespace Sellennia {
 
-	void Print();
+	// exported from a dll
+	__declspec(dllexport) void Print();
 
 }
