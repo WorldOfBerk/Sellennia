@@ -12,5 +12,5 @@ int main(int argc, char** argv) {
 	delete app;
 
 }
-
+// comment push test!
 #endif // SN_PLATFORM_WINDOWS
