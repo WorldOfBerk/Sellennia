@@ -31,6 +31,11 @@
 # *.out
 # *.app
 
+# Binaries
+.vs/
+bin/
+bin-int
+
 # Visual Studio files and folder
 .vs/
 **.sln
