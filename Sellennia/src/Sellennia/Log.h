@@ -23,3 +23,17 @@ namespace Sellennia {
 	};
 
 }
+
+// Core log macros
+#define SN_CORE_TRACE(...)		::Sellennia::Log::GetCoreLogger()->trace(__VA_ARGS__)
+#define SN_CORE_INFO(...)		::Sellennia::Log::GetCoreLogger()->info(__VA_ARGS__)
+#define SN_CORE_WARN(...)		::Sellennia::Log::GetCoreLogger()->warn(__VA_ARGS__)
+#define SN_CORE_ERROR(...)		::Sellennia::Log::GetCoreLogger()->error(__VA_ARGS__)
+#define SN_CORE_FATAL(...)		::Sellennia::Log::GetCoreLogger()->fatal(__VA_ARGS__)
+
+// Client log macros
+#define SN_TRACE(...)			::Sellennia::Log::GetClientLogger()->trace(__VA_ARGS__)
+#define SN_INFO(...)			::Sellennia::Log::GetClientLogger()->info(__VA_ARGS__)
+#define SN_WARN(...)			::Sellennia::Log::GetClientLogger()->warn(__VA_ARGS__)
+#define SN_ERROR(...)			::Sellennia::Log::GetClientLogger()->error(__VA_ARGS__)
+#define SN_FATAL(...)			::Sellennia::Log::GetClientLogger()->fatal(__VA_ARGS__)
