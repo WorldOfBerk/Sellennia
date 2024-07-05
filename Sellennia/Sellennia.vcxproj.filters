@@ -27,9 +27,15 @@
     <ClInclude Include="src\Sellennia\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Sellennia\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Sellennia\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sellennia\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

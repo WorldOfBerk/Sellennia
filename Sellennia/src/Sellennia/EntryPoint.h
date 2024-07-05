@@ -6,6 +6,8 @@ extern Sellennia::Application* Sellennia::CreateApplication();
 
 int main(int argc, char** argv) {
 
+	Sellennia::Log::Init();
+
 	printf("Welcome to the Sellennia Engine");
 	auto app = Sellennia::CreateApplication();
 	app->Run();
